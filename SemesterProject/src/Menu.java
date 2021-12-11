@@ -12,7 +12,8 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-
+//Run the program via the ATM class
+//If you run it here, you will not be able to log in as a list of User objects is never created
 public class Menu extends Application{
 	
 	User user = new User();
